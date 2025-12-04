@@ -1130,3 +1130,29 @@ INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 19:54:38] "POST /api/session HTTP/1.1" 
 INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:01:20] "GET /about HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:01:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:06:04] "GET /callback HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.138:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:28:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:28:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:28:41] "GET /callback?code=AQByurWyVwUe6HVS2zWp_N1sV58Eo1j7-wSrJ2VIosYmbBPA2HqHDv9Dp1s40MI1ip2al5QsXNCfVNrbbi2_fg_PD9M0ONdaxsc_R9JpT5L-_-thNcJ-SdxBLyKblNU8kK0tAbQ1p7arbfUDU8ZH9iDFZYi4jb6ddcBO_yGo8g5tFtQnHoA-BTEEGN2UtrUKEfCTF16xewaYjeyVr5P8_8KSHUQ7ZtLiNobUXGgPCgjS96LbBeCygCHgT6erBj8iY82AhMwrMa94fEFkDk_8V28Vnv0YUUrbL3ZgmVEKr5m1yG64ZMFtfUgnpBpYuoW_Ki0GdEsv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:28:44] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:33:12] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:33:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:36:37] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:36:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:38:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 20:38:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 22:25:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 22:25:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/sumanth/Lyra/recommendation_app/application/features.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug: * Detected change in '/Users/sumanth/Lyra/recommendation_app/application/features.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728

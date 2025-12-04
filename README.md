@@ -1,5 +1,9 @@
 ## Lyra: Emotion-Aware, Feedback-Driven Music Recommender
 
+### Authors
+- Sumanth Sai Prasad  
+- Ramyashree Mummuderlapalli Krishnaiah
+
 Lyra generates personalized song recommendations from any Spotify playlist. It blends lyric emotion, audio features, and your real-time feedback to keep the queue on your vibe.
 
 - **Stack:** Flask API, PostgreSQL-ready, Spotipy, scikit-learn, TextBlob, GAN-based recommender, Bootstrap/custom UI.
@@ -48,7 +52,4 @@ python wsgi.py
 ### Links 
 - Notebooks: [Data extraction](https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/extraction_api.ipynb) | [EDA & clustering](https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/cluster_analysis.ipynb)  
 
-### Authors
-- Sumanth Sai Prasad  
-- Ramyashree Mummuderlapalli Krishnaiah
 
