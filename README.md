@@ -48,8 +48,6 @@ python wsgi.py
 - Default redirect URI: `http://127.0.0.1:8000/callback` (see `application/features.py`).
 - Requires local `.cache` for Spotify OAuth; login once in browser when prompted.
 - PostgreSQL is optional; current app runs with CSV-backed features.
-
-### Links 
-- Notebooks: [Data extraction](https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/extraction_api.ipynb) | [EDA & clustering](https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/cluster_analysis.ipynb)  
+ 
 
 
