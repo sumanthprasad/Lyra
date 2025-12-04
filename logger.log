@@ -1156,3 +1156,5 @@ INFO:werkzeug: * Detected change in '/Users/sumanth/Lyra/recommendation_app/appl
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:25:24] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:25:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
