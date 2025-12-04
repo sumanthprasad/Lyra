@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+{% block results %}
+<div class="recommendations">
+    <div class="track-card">
+        <h3>Static recommendations</h3>
+        <p class="helper">You are viewing the legacy server-rendered list. Switch to the new adaptive controls above for live feedback.</p>
+    </div>
+    {% for song in songs %}
+    <div class="track-card">
+        <div class="track-head">
+            <div>
+                <p class="eyebrow">{{ song[0][2] }}</p>
+                <h3>{{ song[0][0] }}</h3>
+            </div>
+            <div class="score-pill">{{ song[0][2] }}</div>
+        </div>
+        <div class="track-body">
+            <a class="pill" href="{{ song[0][1] }}" target="_blank" rel="noreferrer">Play on Spotify</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

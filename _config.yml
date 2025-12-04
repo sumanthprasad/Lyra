@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: Lyra - Where your vibe finds its voice.
+description: A novel song recommendatoin system built using Content Based Filtering and Natural Language Processing
+logo: /assets/img/logo.png

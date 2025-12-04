@@ -1,0 +1,54 @@
+{% extends "home.html" %}
+{% block content %}
+<main class="page about-page">
+  <header class="about-hero">
+    <p class="eyebrow">About Lyra</p>
+    <h1>Emotion-aware, feedback-driven recommendations.</h1>
+    <p class="lede">
+      Lyra blends lyric sentiment, audio features, and your real-time feedback to keep the queue on your vibe. Built with Flask, a GAN-based recommender, and Spotify data, it pivots instantly when you like, skip, or correct the mood.
+    </p>
+  </header>
+
+  <div class="about-grid">
+    <div class="panel">
+      <h3>What Lyra does</h3>
+      <ul class="about-list">
+        <li>Ingests any Spotify playlist and extracts audio features like tempo, energy, valence, and danceability.</li>
+        <li>Classifies lyric emotion across 13 Berkeley categories to anchor the mood signal.</li>
+        <li>Generates recommendations with a GAN-based model and cosine similarity over curated features.</li>
+        <li>Adapts in-session using explicit feedback (like/dislike, pivot, skip reasons) and implicit cues (replays, fast skips, playthroughs).</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <h3>How to use it</h3>
+      <ol class="about-list numbered">
+        <li>Drop a playlist URL on the home screen and start a live session.</li>
+        <li>Hit Mood match, Not it, Pivot closer, or log skip reasons as you listen.</li>
+        <li>Correct the detected emotion if we got it wrong to steer the next picks.</li>
+        <li>Watch the queue refresh instantly with your adjustments baked in.</li>
+      </ol>
+    </div>
+
+    <div class="panel">
+      <h3>Tech stack</h3>
+      <ul class="about-list">
+        <li>Backend: Flask + PostgreSQL (extensible), sessioned feedback APIs.</li>
+        <li>Model: GAN-based recommender with cosine re-ranking over audio/lyric features.</li>
+        <li>Data: Spotify audio features + lyric NLP for emotion labeling.</li>
+        <li>UI: Bootstrap + custom theming with live feedback controls.</li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <h3>Explore the guts</h3>
+      <ul class="about-list">
+        <li><a href="https://github.com/shivam360d/Novel_Song_Recommender/blob/main/README.md" target="_blank" rel="noreferrer">Project README</a></li>
+        <li><a href="https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/extraction_api.ipynb" target="_blank" rel="noreferrer">Data extraction notebook</a></li>
+        <li><a href="https://github.com/shivam360d/Novel_Song_Recommender/blob/main/notebooks/cluster_analysis.ipynb" target="_blank" rel="noreferrer">EDA & clustering notebook</a></li>
+        <li><a href="https://github.com/shivam360d/Novel_Song_Recommender/blob/main/Project_Report_Team_19.pdf" target="_blank" rel="noreferrer">Project report (PDF)</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+{% endblock %}

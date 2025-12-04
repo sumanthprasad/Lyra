@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lyra | Adaptive Playlists</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://fonts.cdnfonts.com/css/gotham-rounded" rel="stylesheet">
+</head>
+<body>
+	<header class="topbar">
+		<div class="brand">
+			<div class="dot"></div>
+			<span>Lyra</span>
+		</div>
+		<nav class="nav-actions">
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+		</nav>
+	</header>
+
+	{% block content %}
+	<main class="page">
+		<section class="hero">
+			<div>
+				<p class="eyebrow">Real-time adaptation</p>
+				<h1>Lyra - Where your vibe finds its voice.</h1>
+				<p class="lede">Stream mood-first recommendations that react as you listen. Drop a playlist, guide Lyra with feedback, and feel the queue pivot instantly.</p>
+			</div>
+		</section>
+
+		<section class="grid">
+			<div class="panel">
+				<h3>Start an adaptive session</h3>
+				<form id="form1" action="{{ url_for('recommend') }}" method="POST">
+					<label for="playlistUrl">Playlist link</label>
+					<input class="input1" id="playlistUrl" name="URL" type="text" placeholder="https://open.spotify.com/playlist/..." required>
+					<label for="number-of-recs" class="mt-3">How many next-up tracks?</label>
+					<select name="number-of-recs" id="number-of-recs">
+						<option value="5" selected>5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+					</select>
+					<button type="submit" class="cta">Launch live queue</button>
+				</form>
+			</div>
+
+			<div class="panel feedback-panel">
+				<h3>Guide the model in real time</h3>
+				<p class="helper">Use the controls on each track to like, dislike, pivot the playlist, or log skips. Correct our mood read here to steer the next picks.</p>
+				<label for="emotionSelect" class="mt-2">How are you actually feeling?</label>
+				<select id="emotionSelect">
+					<option value="">Select emotion</option>
+					<option value="happy">Happy</option>
+					<option value="sad">Sad</option>
+					<option value="calm">Calm</option>
+					<option value="angry">Angry</option>
+					<option value="excited">Excited</option>
+					<option value="romantic">Romantic</option>
+					<option value="nostalgic">Nostalgic</option>
+				</select>
+				<button type="button" class="ghost" id="sendEmotion">Send mood correction</button>
+				<div class="microcopy">
+					<span>👍 Mood match</span>
+					<span>👎 Miss</span>
+					<span>🔄 Pivot closer</span>
+					<span>⏭️ Skip reason aware</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="recommendations-section">
+			<div id="statusBar" class="status">Waiting for a playlist link.</div>
+			<div id="recommendations" class="recommendations"></div>
+			{% block results %}{% endblock %}
+		</section>
+	</main>
+
+	<script>
+		let sessionId = null;
+
+		function setStatus(message, tone = "info") {
+			const status = document.getElementById("statusBar");
+			status.textContent = message;
+			status.dataset.tone = tone;
+		}
+
+		function scoreLabel(score) {
+			if (score === undefined || score === null) return "—";
+			return Math.round(score * 100) / 100;
+		}
+
+		async function startSession(event) {
+			event.preventDefault();
+			const playlistUrl = document.getElementById("playlistUrl").value.trim();
+			const limit = Number(document.getElementById("number-of-recs").value || 5);
+
+			if (!playlistUrl) {
+				setStatus("Please drop a Spotify playlist URL.", "error");
+				return;
+			}
+
+			setStatus("Starting session and fetching your playlist...", "info");
+			try {
+				const res = await fetch("/api/session", {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({ playlist_url: playlistUrl, limit }),
+				});
+				const data = await res.json();
+				if (!res.ok) {
+					throw new Error(data.error || "Unable to start session");
+				}
+				sessionId = data.session_id;
+				renderSongs(data.recommendations || []);
+				setStatus("Live session ready. Give feedback on tracks to adapt the next picks.", "success");
+			} catch (err) {
+				console.error(err);
+				setStatus(err.message, "error");
+			}
+		}
+
+		async function sendFeedback(action, trackId = null, meta = {}) {
+			if (!sessionId) {
+				setStatus("Start a session before sending feedback.", "error");
+				return;
+			}
+			try {
+				const res = await fetch("/api/feedback", {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({ session_id: sessionId, action, track_id: trackId, meta }),
+				});
+				const data = await res.json();
+				if (!res.ok) {
+					throw new Error(data.error || "Feedback not saved");
+				}
+				renderSongs(data.recommendations || []);
+				setStatus("Feedback applied. Queue updated.", "success");
+			} catch (err) {
+				console.error(err);
+				setStatus(err.message, "error");
+			}
+		}
+
+		function renderSongs(list) {
+			const container = document.getElementById("recommendations");
+			container.innerHTML = "";
+			if (!list.length) {
+				container.innerHTML = "<p class='helper'>No recommendations yet. Share feedback or try another playlist.</p>";
+				return;
+			}
+			list.forEach((song) => {
+				const card = document.createElement("div");
+				card.className = "track-card";
+				card.innerHTML = `
+					<div class="track-head">
+						<div>
+							<p class="eyebrow">${song.artist || "Unknown artist"}</p>
+							<h3>${song.title || "Unknown track"}</h3>
+						</div>
+						<div class="score-pill">${scoreLabel(song.score)}</div>
+					</div>
+					<div class="track-body">
+						<div class="actions">
+							<button class="ghost" data-action="like">👍 Mood match</button>
+							<button class="ghost" data-action="dislike">👎 Not it</button>
+							<button class="ghost" data-action="pivot">🔄 More like this</button>
+							<a class="pill" target="_blank" rel="noreferrer" href="${song.spotify_url || "#"}">Open in Spotify</a>
+						</div>
+						<div class="implicit">
+							<div class="skip-group">
+								<label>Skip reason</label>
+								<select data-skip>
+									<option value="wrong_energy">Wrong energy</option>
+									<option value="wrong_mood">Wrong mood</option>
+									<option value="wrong_genre">Wrong genre</option>
+									<option value="dont_like">Don't like this song</option>
+								</select>
+								<button class="ghost" data-action="skip">Send</button>
+							</div>
+							<div class="listen-group">
+								<button class="ghost" data-action="listen-long">😊 Played through</button>
+								<button class="ghost" data-action="listen-short">⏭️ Skipped fast</button>
+								<button class="ghost" data-action="replay">🔁 Replayed</button>
+							</div>
+						</div>
+					</div>
+				`;
+
+				const skipSelect = card.querySelector("select[data-skip]");
+				card.querySelector('[data-action="like"]').addEventListener("click", () =>
+					sendFeedback("like", song.id)
+				);
+				card.querySelector('[data-action="dislike"]').addEventListener("click", () =>
+					sendFeedback("dislike", song.id)
+				);
+				card.querySelector('[data-action="pivot"]').addEventListener("click", () =>
+					sendFeedback("more_like_this", song.id)
+				);
+				card.querySelector('[data-action="skip"]').addEventListener("click", () =>
+					sendFeedback("skip_reason", song.id, { reason: skipSelect.value })
+				);
+				card.querySelector('[data-action="listen-long"]').addEventListener("click", () =>
+					sendFeedback("listen_event", song.id, { seconds: 180 })
+				);
+				card.querySelector('[data-action="listen-short"]').addEventListener("click", () =>
+					sendFeedback("listen_event", song.id, { seconds: 20 })
+				);
+				card.querySelector('[data-action="replay"]').addEventListener("click", () =>
+					sendFeedback("replay", song.id)
+				);
+
+				container.appendChild(card);
+			});
+		}
+
+		function sendEmotionCorrection() {
+			const emotion = document.getElementById("emotionSelect").value;
+			if (!emotion) {
+				setStatus("Pick an emotion to correct the model.", "info");
+				return;
+			}
+			sendFeedback("emotion_correction", null, { emotion });
+		}
+
+		document.addEventListener("DOMContentLoaded", () => {
+			document.getElementById("form1").addEventListener("submit", startSession);
+			document.getElementById("sendEmotion").addEventListener("click", sendEmotionCorrection);
+		});
+	</script>
+	{% endblock %}
+</body>
+</html>

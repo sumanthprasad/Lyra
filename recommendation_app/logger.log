@@ -1,0 +1,534 @@
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\DS-DataMining\\PracticalDataScience-ENCA\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\DS-DataMining\\PracticalDataScience-ENCA\\recommendation_app\\application\\routes.py', reloading
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-936-293
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-261-344
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\DS-DataMining\\PracticalDataScience-ENCA\\recommendation_app\\application\\model.py', reloading
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\DS-DataMining\\PracticalDataScience-ENCA\\recommendation_app\\application\\model.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-261-344
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-936-293
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 01:16:40] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 01:16:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:werkzeug: * Restarting with stat
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 653-775-125
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:49:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:49:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:49:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:49:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:werkzeug: * Restarting with stat
+INFO:numexpr.utils:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 653-775-125
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:50:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:50:17] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:50:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:50:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:52:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:52:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:52:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:52:58] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:52:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:36] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:36] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:40] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:40] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:40] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:40] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:56:40] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:58:46] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 16:58:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:00:15] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:00:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:02:09] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:02:10] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:03:54] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:03:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:04:18] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:04:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:37] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:47] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:55] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:05:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:06:10] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:06:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:06:32] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:06:32] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:07:10] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:07:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:09:05] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:09:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:10:04] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:10:04] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:10:31] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:10:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:11:27] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:11:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:12:03] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:12:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:13:03] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:13:03] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:13:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:20:28] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:20:28] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:20:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:21:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:21:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:21:25] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2022 17:21:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:spotipy.client:HTTP Error for GET to https://api.spotify.com/v1/playlists/4CBUbnGFz2iKFJjYqRIwst/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Not found.
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:54] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:54] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:54] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:54] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:20:54] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:21:40] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:21:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:22:25] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:22:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:23:12] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:23:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:23:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2022 17:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:02:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:02:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:02:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:03:57] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:03:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:18] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:43] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2022 16:04:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:28:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:28:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:28:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:28:38] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:28:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:33:01] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:33:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:33:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:logging happened!
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:39] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:38:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', 99.99999999996318)]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:40:06] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:40:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', 99.99999999996318)]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:41:05] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:41:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', 100.0, '%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:42:34] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:42:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:40] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:40] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:40] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:40] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:40] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', '100.0%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:47] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:43:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', '100.0%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:44:45] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:44:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', '1.00%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:47:25] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:47:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', '1.000%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:47:53] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:47:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application:[('James Brown - "The Payback"', 'https://open.spotify.com/track/4u4Kb4W5mWtn9oz4A7SKK6', '100.00%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:48:36] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:48:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:application:[('Prince - "D.M.S.R."', 'https://open.spotify.com/track/1YpgRBDgD8ed7eb8i053Qt', '100.00%')]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:48:55] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:48:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:51:13] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:51:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:53:51] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 22:53:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:02:22] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:02:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:10:01] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:10:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:23:49] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:23:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:25:22] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:25:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:25:57] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:25:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:spotipy.client:HTTP Error for GET to https://api.spotify.com/v1/playlists/43nM9T2r8ECcGIK6ZaEBeZ'/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Invalid playlist Id
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:50] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:50] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:50] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:50] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:50] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:56] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:26:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:19] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:30] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:41] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:52] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:28:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:41:27] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:41:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:41:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:08] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:08] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:08] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:08] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:08] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:31] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:31] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:31] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:44:31] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:45:27] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:45:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:54:16] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:54:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:55:06] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:55:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:56:40] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:56:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:56:57] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:56:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:57:09] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2022 23:57:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:26] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:48] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:57] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:01:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:02:43] "[33mGET /target=%22_blank%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:04:03] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:04:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:04:22] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:04:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:58:38] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 00:58:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 01:00:36] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2022 01:00:36] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 02:04:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 02:04:57] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 02:05:52] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 02:05:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\model.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:28:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:28:59] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:29:21] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:29:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:29:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 15:29:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 16:16:47] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 16:16:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 23:43:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 23:43:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 23:43:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 23:43:18] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2022 23:43:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:22] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:22] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:22] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:22] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 14:59:22] "GET /recommend?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:01:26] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:01:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:03:18] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:03:18] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:03:18] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:03:18] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:22] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:22] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:22] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:22] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:38] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:38] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:38] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:04:38] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\vatss\\codes\\Novel_Song_Recommender\\recommendation_app\\application\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:08:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:08:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:08:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:08:31] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2022 15:08:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 829-496-821
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2022 20:47:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2022 20:47:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2022 20:47:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2022 20:48:11] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2022 20:48:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 582-534-616
+ERROR:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+ERROR:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] "[35m[1m  üûÁ>èûÄÁÛ	{W|÷ð6@sÚ?=­És/ý* sÏrùÓ¡º|9ÕÛQb?ìæQëù34Ö|Ñ=îÓ)4uU  úúÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 JJ     ÿ   [0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] "[35m[1m  ü´ÜRà`köè?ï½À÷^ÛØÐ¸Sqwê4 ªÜµb¥Ï}n`i
+éÇú&Ü[JÓõÀ  À+À/À,À0Ì©Ì¨ÀÀ   / 5      ÿ   [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] "[35m[1m  üõITÑÒ|n«Ü`ûf(;¯.ììúÄïêÁCN  êÊr¸ýß]­ÏsÓ4ú¬40Fëòº¦émã7  ÚÚÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:05] "[35m[1m  ü¸ÌÙ©T7'¼,Ìç0Ã¦1.ò*;y1 áo N	_åQa9°@ÒµnØÉaî"=|  ::À+À/À,À0Ì©Ì¨ÀÀ   / 5 ªª     ÿ   [0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:32] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:58] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:04:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:18:14] "[31m[1mGET /recommend HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:18:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:18:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:21:30] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:21:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 582-534-616
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:52:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 13:52:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-568-404
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
