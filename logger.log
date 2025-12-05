@@ -1158,3 +1158,80 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 392-305-728
 INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:25:24] "GET /about HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:25:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:33:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:33:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.0.0.243 - - [03/Dec/2025 23:34:08] "[33mGET /openapi.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:34:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:34:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:37:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:37:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:37:25] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:37:53] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:38:27] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:39:06] "POST /api/feedback HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:39:11] "POST /api/feedback HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:39:41] "POST /api/feedback HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:39:43] "POST /api/feedback HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:39:56] "POST /api/feedback HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:40:23] "POST /api/session HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.138:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:44:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:44:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:44:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:44:17] "[35m[1mPOST /api/session HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:44:27] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2025 23:48:21] "POST /api/session HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.200.209.199:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:08:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:08:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:08:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:08:48] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:09:40] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:09:53] "POST /api/session HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.200.197.144:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:34:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:34:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:34:54] "POST /api/session HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:35:15] "POST /api/feedback HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.200.193.172:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:56:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:56:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 13:57:51] "POST /api/session HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.22:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 19:23:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 19:23:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2025 19:25:03] "[33mGET /api/gan/recommend HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.138:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 392-305-728
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2025 14:46:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2025 14:46:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2025 14:47:14] "POST /api/session HTTP/1.1" 200 -
